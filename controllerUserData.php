@@ -43,12 +43,12 @@ if(isset($_POST['signup'])){
                 $mail->SMTPDebug  = false;  
                 //$mail->do_debug = 1;                   // Enable verbose debug output
                 $mail->isSMTP();                                            // Send using SMTP
-                $mail->SMTPSecure = 'STARTTLS';
+                $mail->SMTPSecure = 'ssl';
                 $mail->Host = 'smtp.gmail.com';               // Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
                 $mail->Username   = 'r.macharia254@gmail.com';                     // SMTP username
-                $mail->Password   = 'mypassword3695,';                             
-               $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above                                   // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+                $mail->Password   = 'xxxxxx';                             
+               $mail->Port       = 465;                                  // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above                                   // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     
                 //Recipients
                 $mail->setFrom('r.macharia254@gmail.com', 'Roy');
@@ -152,7 +152,7 @@ if(isset($_POST['signup'])){
                 $mail->Host = 'smtp.gmail.com';               // Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
                 $mail->Username   = 'r.macharia254@gmail.com';                     // SMTP username
-                $mail->Password   = 'mypassword3695,';                             
+                $mail->Password   = 'xxxxxxx';                             
                $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above                                   // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     
                 //Recipients
