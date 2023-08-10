@@ -11,13 +11,13 @@ variables:
   azureSubscription: '2a39eaab-c343-4d03-8ef1-af1674378bbf'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'LognSysPHP'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'LognSysPHP'
 
   # Root folder under which your composer.json file is available.
   rootFolder: $(System.DefaultWorkingDirectory)
